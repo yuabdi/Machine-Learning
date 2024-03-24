@@ -1,0 +1,36 @@
+What needs to be decided on?
+
+	Split feature
+	Split point
+	When to stop splitting
+Steps
+	Training:
+Given the whole set dataset:
+	Calculate information gain with each possible split
+	Divide set with that feature and value that gives the most IG
+	Divide the tree and do the same for all created branches…
+	…until a stopping criteria is reached.
+	Testing:
+Given a data point:
+	Follow the tree until you reach a leaf node
+	Return the most common class label
+Terms 
+	Information gain IG= E(parent) – [weighted average] * E[children]
+	Entropy E= - p(x) * log_2⁡〖(p(x))〗 p(x) = #x(number classes that occurred)/n(number of total nodes).
+	Stopping criteria: maximum number of samples, min impurity decrease
+
+
+
+14. Which of the following is NOT True about Ensemble Techniques?
+
+(A) Bagging decreases the variance of the classifier.
+
+(B) Boosting helps to decrease the bias of the classifier.
+
+(C) Bagging combines the predictions from different models and then finally gives the results.
+
+(D) Bagging and Boosting are the only available ensemble techniques.
+Option-D
+
+Explanation: Apart from bagging and boosting there are other various types of ensemble techniques such as Stacking, Extra trees classifier, Voting classifier, etc.
+

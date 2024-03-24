@@ -1,0 +1,3 @@
+Access the data set. It contains 100 data points [50 for each class]. Implement Gaussian Discriminant Analysis algorithm to correctly classify each data point.
+1.  Manipulate data as necessary & create a scatter plot using any plotting library [preferably 'matplotlib'].
+2. Write a function to draw the decision boundary and contours of each class along with the data points. The output would look like as following.

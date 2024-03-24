@@ -1,0 +1,6 @@
+Fuel EconomyLinks to an external site.
+Tasks.
+1. Reproduce Exploratory Data Analysis as provided in the specimen Links to an external site.. Discover an interesting aspect of the data that is not shown in the specimen. 
+2. The UCity variable is treated as dependent/target variable in the specimen. Discuss your approach to build a predictive model. Is it going to be a classification model or regression model. Why?
+3. Discuss which variables you will not consider as inputs to the model. Why? 
+4. How will you evaluate your model to avoid over-fitting/under-fitting.

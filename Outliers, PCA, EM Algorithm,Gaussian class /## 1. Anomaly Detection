@@ -1,0 +1,30 @@
+## 1. Anomaly Detection 
+
+**Part A :**
+
+By dividing a data set into quartiles, IQR is used to measure variability. The data is sorted ascending and divided into four equal parts. Q1, Q2, Q3, also known as the first, second, and third quartiles, are the values that separate the four equal parts.
+
+Use the following data points to calculate outliers in the data
+data = [11, 3, 8, 10, 12, 5, 1, 50]
+
+Using a box plot, show the outliers in the box plot.
+
+**Part B :**
+
+Using the formula to calculate the Z-score detect outliers in the following data points.
+data = [6, 3, 9, 6, 9, 20, 3, 10, 3, 50, 6, 5, 9, 9, 3, 6, 3]
+Using a box plot, show the outliers in the box plot.
+
+**Part C :**
+
+Use the dataset attached for identifying the outliers using Z-score. 
+
+Steps to follow in this question
+
+- Step1: Show outliers using histograms and scatterplots. Then 
+
+- Step2: Identify the outliers using Z-score for SalePrice column by using atleast 4 different thresholds.
+
+- Step3: Print the number of outliers removed.
+
+- Step4: Use LocalOutlierFactor as discussed in the class to plot the outliers from SalePrice and LotArea columns.
